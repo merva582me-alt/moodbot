@@ -1,0 +1,7 @@
+{
+  "name": "MoodBot",
+  "description": "Local desktop and web live stream automation dashboard for MeetMe stream monitoring, chat, TTS, and advanced audio ducking.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

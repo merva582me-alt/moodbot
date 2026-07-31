@@ -1,0 +1,19 @@
+name = "moodbot-license"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Custom domain — add this in Cloudflare dashboard after deploy,
+# or uncomment once you've created the route in the dashboard.
+# routes = [{ pattern = "license.blunt.pics/*", custom_domain = true }]
+
+[[d1_databases]]
+binding       = "DB"
+database_name = "moodbot-licenses"
+database_id   = "884042cb-9717-45bc-ba32-d9bd1fb70ffb"
+
+[assets]
+directory = "./public"
+
+[vars]
+# ADMIN_SECRET is set as a secret (not here) — see deployment instructions.
+# Run: wrangler secret put ADMIN_SECRET

@@ -1,0 +1,322 @@
+{
+  "keys": [
+    {
+      "id": 2,
+      "key": "MBOT-D2B2-C22A-06CD-93DC",
+      "note": "BIRD's License Key",
+      "status": "active",
+      "hwid": null,
+      "createdAt": 1785423157,
+      "expiresAt": null,
+      "activatedAt": null,
+      "lastSeen": null
+    },
+    {
+      "id": 1,
+      "key": "MBOT-E5C1-5703-9FCB-5816",
+      "note": "REEF's License Key",
+      "status": "active",
+      "hwid": "14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "createdAt": 1785421700,
+      "expiresAt": null,
+      "activatedAt": 1785421806,
+      "lastSeen": 1785439032
+    }
+  ],
+  "log": [
+    {
+      "id": 1,
+      "keyId": 1,
+      "action": "created",
+      "detail": "note=\"REEF's License Key\" days=unlimited",
+      "ts": 1785421700
+    },
+    {
+      "id": 2,
+      "keyId": 1,
+      "action": "activate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785421806
+    },
+    {
+      "id": 3,
+      "keyId": 1,
+      "action": "paused",
+      "detail": "",
+      "ts": 1785421815
+    },
+    {
+      "id": 4,
+      "keyId": 1,
+      "action": "unpaused",
+      "detail": "",
+      "ts": 1785421836
+    },
+    {
+      "id": 5,
+      "keyId": 1,
+      "action": "activate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785421838
+    },
+    {
+      "id": 6,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785422536
+    },
+    {
+      "id": 7,
+      "keyId": 1,
+      "action": "paused",
+      "detail": "",
+      "ts": 1785422553
+    },
+    {
+      "id": 8,
+      "keyId": 1,
+      "action": "unpaused",
+      "detail": "",
+      "ts": 1785422705
+    },
+    {
+      "id": 9,
+      "keyId": 1,
+      "action": "activate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785422879
+    },
+    {
+      "id": 10,
+      "keyId": 2,
+      "action": "created",
+      "detail": "note=\"BIRD's License Key\" days=unlimited",
+      "ts": 1785423157
+    },
+    {
+      "id": 11,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785424679
+    },
+    {
+      "id": 12,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785426479
+    },
+    {
+      "id": 13,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785427159
+    },
+    {
+      "id": 14,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785427743
+    },
+    {
+      "id": 15,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785428279
+    },
+    {
+      "id": 16,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785429780
+    },
+    {
+      "id": 17,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785430016
+    },
+    {
+      "id": 18,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785431740
+    },
+    {
+      "id": 19,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432079
+    },
+    {
+      "id": 20,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432237
+    },
+    {
+      "id": 21,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432326
+    },
+    {
+      "id": 22,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432407
+    },
+    {
+      "id": 23,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432504
+    },
+    {
+      "id": 24,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432667
+    },
+    {
+      "id": 25,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432727
+    },
+    {
+      "id": 26,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432796
+    },
+    {
+      "id": 27,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432881
+    },
+    {
+      "id": 28,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432945
+    },
+    {
+      "id": 29,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785432996
+    },
+    {
+      "id": 30,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785433209
+    },
+    {
+      "id": 31,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785433488
+    },
+    {
+      "id": 32,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785433758
+    },
+    {
+      "id": 33,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785435558
+    },
+    {
+      "id": 34,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785436742
+    },
+    {
+      "id": 35,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785436774
+    },
+    {
+      "id": 36,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785436812
+    },
+    {
+      "id": 37,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785436997
+    },
+    {
+      "id": 38,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785437757
+    },
+    {
+      "id": 39,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785438062
+    },
+    {
+      "id": 40,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785438348
+    },
+    {
+      "id": 41,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785438561
+    },
+    {
+      "id": 42,
+      "keyId": 1,
+      "action": "validate",
+      "detail": "hwid=14a3e7b8816017a7961832bbbe8e6a17656caac45d18e996ef20ff228d9f61a3",
+      "ts": 1785439032
+    }
+  ]
+}

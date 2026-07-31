@@ -1,0 +1,4 @@
+# Development environment configuration file using Mise.
+# Configures the project to use the latest version of Go.
+[tools]
+go = "latest"

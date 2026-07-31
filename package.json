@@ -1,0 +1,114 @@
+{
+  "name": "moodbot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local desktop dashboard to automate, manage, and monitor MeetMe live streams.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build && electron .",
+    "dev:watch": "electron .",
+    "build": "vite build",
+    "electron:start": "electron .",
+    "electron:build": "node scripts/make-ico.mjs && vite build && electron-builder --win",
+    "electron:build:mac": "vite build && electron-builder --mac",
+    "electron:build:linux": "vite build && electron-builder --linux",
+    "electron:dist": "vite build && electron-builder --dir",
+    "clean": "if exist dist rmdir /s /q dist & if exist release rmdir /s /q release",
+    "lint": "tsc --noEmit"
+  },
+  "build": {
+    "appId": "com.moodbot.meetmelive",
+    "productName": "MoodBot",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "preload.cjs",
+      "preload.js",
+      "preload-meetme.js",
+      "package.json",
+      "assets/icon.png",
+      "gift data.json",
+      "lottie_cache/**"
+    ],
+    "asarUnpack": [
+      "gift data.json",
+      "lottie_cache/**"
+    ],
+    "publish": {
+      "provider": "generic",
+      "url": "https://update.blunt.pics"
+    },
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "mac": {
+      "icon": "assets/icon.png",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "icon": "assets/icon.png",
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "artifactName": "MoodBot Installer.${ext}",
+      "uninstallDisplayName": "MoodBot Uninstaller"
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.9",
+    "@google/genai": "^2.4.0",
+    "@rive-app/react-canvas": "^4.30.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "cheerio": "^1.2.0",
+    "hls.js": "^1.6.16",
+    "lottie-web": "^5.13.0",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "msedge-tts": "^2.0.7",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.25.0",
+    "png-to-ico": "^3.0.2",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2"
+  }
+}

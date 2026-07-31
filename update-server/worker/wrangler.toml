@@ -1,0 +1,10 @@
+name = "moodbot-update"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Custom domain — add in Cloudflare dashboard after deploy:
+# Workers & Pages → moodbot-update → Settings → Domains & Routes → Add Custom Domain → update.blunt.pics
+
+[[r2_buckets]]
+binding     = "RELEASES"
+bucket_name = "moodbot-releases"
